@@ -14,7 +14,7 @@ env:
 jobs:
 
   terraform:
-    runs-on: linux
+    runs-on: ubuntu-latest
 
     environment:
       name: ${{ inputs.environment }}
