@@ -14,7 +14,7 @@ env:
 jobs:
 
   terraform:
-    runs-on: self-hosted
+    runs-on: linux
 
     environment:
       name: ${{ inputs.environment }}
